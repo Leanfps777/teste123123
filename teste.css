@@ -288,6 +288,7 @@ header a:hover {
 body {
     animation: fadeIn 2s forwards;
     max-width: 600px; 
+    margin: 0 auto; 
 }
 
 
