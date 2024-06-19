@@ -3,6 +3,16 @@ body {
     background: linear-gradient(to right, #213a63, #63797f, #9c8f7d, #cbb180);
     min-height: 100vh;
     margin: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 header {
